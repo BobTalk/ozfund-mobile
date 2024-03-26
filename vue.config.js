@@ -1,8 +1,8 @@
 /*
  * @Author: hyq_bob bob.he@autech.one
  * @Date: 2024-03-19 17:27:28
- * @LastEditors: hyq_bob bob.he@autech.one
- * @LastEditTime: 2024-03-20 12:04:14
+ * @LastEditors: heyongqiang 1498833800@qq.com
+ * @LastEditTime: 2024-03-26 22:43:25
  * @FilePath: /ozfund-vue/vue.config.js
  * @Description: 项目配置文件
  */
@@ -38,6 +38,7 @@ module.exports = {
     name: "Ozfund",
     themeColor: "#FFFFFF",
     msTileColor: '#FFFFFF',
+    manifestPath:path.join(__dirname, './public/"manifest.json"'),
     manifestOptions: {
       background_color: "#FFFFFF",
       theme_color: "#FFFFFF",
